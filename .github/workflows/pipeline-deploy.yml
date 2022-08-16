@@ -76,7 +76,7 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: regitry.heroku.com/devops-crescer-tuane/web:latest
+        tags: registry.heroku.com/devops-crescer-tuane/web:latest
         
   deploy:
     name: Publica ambiente Desenvolvimento
